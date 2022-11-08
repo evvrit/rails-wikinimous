@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar h3 {
+  font-size: 18px;
+  color: rgb(26, 25, 25);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-left: 12px;
+  line-height: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(200, 226, 226, 0.4);
+  /* box-sizing: border-box; */
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 700px;
+  text-align: left;
+}
+
+.article-card {
+  width: 700px;
+  text-align: left;
+}
+
+.article-card-header {
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 50px;
+  color: blue;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.article-card-header:hover {
+  text-decoration: underline;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-button {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(9, 8, 8);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 12px;
+}

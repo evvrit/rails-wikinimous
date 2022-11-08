@@ -1,0 +1,10 @@
+<div style="display:flex; justify-content: center; align-items: center;">
+<div class="article-card">
+  <ul style="list-style: none;">
+    <% @articles.each do |a| %>
+      <li><%= link_to a.title, article_path(a), {:class=>'article-card-header'} %></li>
+      <li><%= a.content %></li>
+    <% end %>
+  </ul>
+</div>
+</div>
